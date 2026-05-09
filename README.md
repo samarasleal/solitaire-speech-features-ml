@@ -2,13 +2,12 @@
 
 ## Overview
 
-This repository is part of the SOLITAIRE project. It contains a dataset package with non-identifiable speech features derived from hikikomori patients undergoing cognitive behavioral therapy (CBT), along with code developed for machine learning-based speech analysis in depression assessment. The package supports reproducible analysis of acoustic features and their association with depression-related clinical outcomes.
+This repository is part of the SOLITAIRE project. It contains the code developed for machine learning-based speech analysis in depression assessment. The package supports reproducible analysis of acoustic features and their association with depression-related clinical outcomes.
 
-> Note: This package is associated with the broader clinical project repository. The main project DOI will be added once available.
+> Note: This package is associated with the broader clinical project repository in Zenodo. The main project DOI will be added once available.
 
 The resource includes:
 
-- segment-level acoustic features derived from speech recordings of 35 patients across 8 CBT sessions;
 - Python scripts for feature processing and machine learning-based speech analysis;
 - documentation describing the speech-feature columns;
 - citation information for the associated publication and Zenodo record.
@@ -32,13 +31,9 @@ This dataset is associated with the main clinical project repository:
 - Main clinical/project DOI: [to be added when available]
 - Speech-feature/code DOI: [Zenodo DOI for this record]
 
-## Data contents
+## File contents
 
 ```text
-speech_features/
-  EMB35.pkl
-  MFCC35.pkl
-
 code/
   Binary_emb.ipynb
   Binary_mfccs.ipynb
@@ -57,20 +52,6 @@ metadata/
   processing_and_modeling_details.md
 ```
 
-## Expected data format
-
-The data files are organized in wide format, with one row per anonymized patient. Acoustic features are stored as session- and segment-specific columns.
-
-| Column pattern | Description |
-|---|---|
-| `Patient_ID` | Anonymized patient identifier |
-| `MFCC_Session{session}_Segment{segment}_MeanCoefficient{coeff}` | Mean MFCC value for coefficient `{coeff}` extracted from a 5-second speech segment |
-| `MFCC_Session{session}_Segment{segment}_StdCoefficient{coeff}` | Standard deviation of MFCC coefficient `{coeff}` extracted from a 5-second speech segment |
-| `Embeddings_Session{session}_MeanSegment{segment}` | Mean wav2vec 2.0 embedding summary for a 5-second speech segment |
-| `Embeddings_Session{session}_StdSegment{segment}` | Standard deviation wav2vec 2.0 embedding summary for a 5-second speech segment |
-
-Sessions range from `Session1` to `Session8`. Segment indices vary according to the number of valid speech segments available per session. MFCC coefficients range from `Coefficient1` to `Coefficient13`.
-
 ## Code summary
 
 The `code/` folder contains scripts used to prepare the provided feature tables and run the machine learning experiments. The repository does not include raw audio files or the full audio-cleaning pipeline; the shared data consist of non-identifiable, pre-extracted speech features.
@@ -86,16 +67,15 @@ The code supports the following steps:
 7. training and evaluating classification, regression, binary, and multiclass models;
 8. summarizing patient-level metrics such as recall, precision, and F1-score.
 
-For calculating standardized clinical outcome variables from HDRS/CDI raw scores, refer to the worksheet in the data folder of the main project DOI. Use `Patient_ID` as the cross-reference key.
+For calculating standardized clinical outcome variables from HDRS/CDI raw scores, refer to the worksheet in the data folder of the main project DOI in Zenodo. Use `Patient_ID` as the cross-reference key.
 
 ## Ethical and access notes
 
-This repository does not contain raw clinical audio or directly identifiable patient information. It includes only non-identifiable derived speech features and code.
+This package does not include raw clinical audio or directly identifiable patient information. It was designed to run using only non-identifiable derived speech features and code.
 
 ## License
 
-- Dataset/features: CC BY 4.0;
-- Code: MIT License or Apache 2.0.
+- MIT License or Apache 2.0.
 
 ## Versioning
 
