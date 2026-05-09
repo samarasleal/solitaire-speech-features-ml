@@ -12,6 +12,10 @@ The resource includes:
 - documentation describing the speech-feature columns;
 - citation information for the associated publication and Zenodo record.
 
+## Data availability
+
+The dataset is not stored in this GitHub repository. It is available through the associated Zenodo record, subject to the license and access conditions described there.
+
 ## How to cite
 
 If you use this resource, please cite both the associated publication and this Zenodo record.
