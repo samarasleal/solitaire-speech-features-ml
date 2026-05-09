@@ -22,7 +22,7 @@ keywords:
   - acoustic features
   - machine learning
 
-repository-code: "[add GitHub or Zenodo URL]"
+repository-code: "https://github.com/samarasleal/solitaire-speech-features-ml"
 doi: "[add Zenodo DOI]"
 date-released: "2026-05-08"
 license: "CC-BY-4.0"
