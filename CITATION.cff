@@ -11,7 +11,7 @@ authors:
   - family-names: "Sassi"
     given-names: "Roberto"
 
-abstract: "Dataset package with non-identifiable speech features derived from hikikomori patients undergoing CBT, along with code developed for machine learning-based speech analysis in depression assessment."
+abstract: "Code developed for machine learning-based speech analysis in depression assessment."
 
 keywords:
   - speech processing
