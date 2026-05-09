@@ -1,0 +1,13 @@
+License information
+
+Dataset/features:
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Code:
+MIT License
+
+This repository contains non-identifiable derived speech features and code. Raw clinical audio is not included.
+
+Any reuse of the dataset/features must provide appropriate attribution to the Zenodo record and the associated publication.
+
+Any reuse of the code must follow the MIT License terms.

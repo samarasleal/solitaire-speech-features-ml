@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+title: "Speech Features and Machine Learning Pipeline for Depression Recognition"
+message: "If you use this package, please cite both the associated publication and this Zenodo record."
+type: dataset
+
+authors:
+  - family-names: "Leal"
+    given-names: "Samara Soares"
+  - family-names: "Ntalampiras"
+    given-names: "Stavros"
+  - family-names: "Sassi"
+    given-names: "Roberto"
+
+abstract: "Dataset package with non-identifiable speech features derived from hikikomori patients undergoing CBT, along with code developed for machine learning-based speech analysis in depression assessment."
+
+keywords:
+  - speech processing
+  - mental health
+  - cognitive behavioral therapy
+  - depression
+  - hikikomori
+  - acoustic features
+  - machine learning
+
+repository-code: "[add GitHub or Zenodo URL]"
+doi: "[add Zenodo DOI]"
+date-released: "2026-05-08"
+license: "CC-BY-4.0"
+
+preferred-citation:
+  type: article
+  title: "Speech-Based Depression Recognition in Hikikomori Patients Undergoing Cognitive Behavioral Therapy"
+  authors:
+    - family-names: "Leal"
+      given-names: "Samara Soares"
+    - family-names: "Ntalampiras"
+      given-names: "Stavros"
+    - family-names: "Rossetti"
+      given-names: "Maria Gloria"
+    - family-names: "Trabacca"
+      given-names: "Antonio"
+    - family-names: "Bellani"
+      given-names: "Marcella"
+    - family-names: "Sassi"
+      given-names: "Roberto"
+  year: 2025
+  journal: "Applied Sciences"
+  volume: 15
+  issue: 21
+  start: 11750
+  doi: "10.3390/app152111750"
