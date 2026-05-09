@@ -26,12 +26,12 @@ Leal, S. S., Ntalampiras, S., Rossetti, M. G., Trabacca, A., Bellani, M., & Sass
 
 ### Zenodo record
 
-Leal, S. S., Ntalampiras, S., & Sassi, R. (2026). *Speech Features and Machine Learning Pipeline for Depression Recognition*. Zenodo. DOI: [to be added]
+Leal, S. S., Ntalampiras, S., & Sassi, R. (2026). *Speech Features and Machine Learning Pipeline for Depression Recognition*. Zenodo. DOI: 10.5281/zenodo.20099145
 
 ## Code relationship
 
 - Main clinical/project DOI: [to be added when available]
-- Dataset/code DOI: [Zenodo DOI for this record]
+- Dataset/code DOI: 10.5281/zenodo.20099145
 
 ## File contents
 
