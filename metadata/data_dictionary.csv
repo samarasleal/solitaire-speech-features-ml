@@ -1,6 +1,0 @@
-column_name,description,type,notes
-Patient_ID,Anonymized patient identifier,string
-MFCC_Session1_Segment0_MeanCoefficient1,5 seconds mean MFCCs coefficient 1 segment,float,Repeat from MFCC_Session1_Segment0_MeanCoefficient1 to MFCC_Session8_Segment699_MeanCoefficient13
-MFCC_Session1_Segment0_StdCoefficient1,5 seconds std MFCCs coefficient 1 segment,float,Repeat from MFCC_Session1_Segment0_StdCoefficient1 to MFCC_Session8_Segment699_StdCoefficient13
-Embeddings_Session1_MeanSegment0,5 seconds mean wav2vec 2.0 embedding segment,float,Repeat from Embeddings_Session1_MeanSegment0 to Embeddings_Session8_MeanSegment699
-Embeddings_Session1_StdSegment0,5 seconds std wav2vec 2.0 embedding segment,float,Repeat from Embeddings_Session1_StdSegment0 to Embeddings_Session8_StdSegment699
