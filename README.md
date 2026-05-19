@@ -49,10 +49,6 @@ code/
     TargetVariables.ipynb
     DataProcessing_run.ipynb
 
-metadata/
-  data_dictionary.csv
-  processing_and_modeling_details.md
-```
 
 ## Code summary
 
