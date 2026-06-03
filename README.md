@@ -30,7 +30,7 @@ Leal, S. S., Ntalampiras, S., & Sassi, R. (2026). *Speech Features and Machine L
 
 ## Code relationship
 
-- Main clinical/project DOI: [to be added when available]
+- Main clinical/project DOI: 10.5281/zenodo.20526320
 - Dataset/code DOI: 10.5281/zenodo.20099145
 
 ## File contents
